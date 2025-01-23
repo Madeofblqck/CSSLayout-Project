@@ -1,0 +1,165 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img{
+    height: 40px;
+}
+
+header .top a{
+    margin-left: 20px;
+    color: #00b39b;
+    font-weight: bold;
+}
+
+/*Main Content*/
+.main-content{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e8f5f4;
+}
+
+.div1 img{
+    height: 50px;
+}
+
+.div1 .par{
+    font-size: 24px;
+    font-weight: bold;
+    color: #00b39b;
+}
+
+.div2, .div3{
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+/* For Sections */
+.forsection{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.for1, .for2, .for3{
+    width: 30%;
+    background-color: #00b39b;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.for1 p, .for2 p, .for3 p{
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+/* Section3 */
+.section3{
+    text-align: center;
+    padding: 50px 20px;
+    background-color:  #dfeef0;
+}
+
+#section3logos img{
+    width: 120px;
+    margin: 20px;
+}
+
+/* Section 4 */
+.section4{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.section4 img{
+    width: 100px;
+    margin-top: 20px;
+}
+
+.section4content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.section4content div{
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Section6 */
+.section6 .country{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.section6 .country div {
+    width: 300px;
+    text-align: center;
+    background-color: #00b39b;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.section6 .country img {
+    width: 100%;
+    border-bottom: 5px solid white;
+}
+
+/*setion7*/
+.section7{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.section7 button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #00b39b;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a{
+    color: #00b39b;
+    text-decoration: none;
+}
