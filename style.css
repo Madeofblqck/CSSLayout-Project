@@ -111,6 +111,16 @@ header .top a{
     border-radius: 10px;
 }
 
+.section5 .section5content{
+    width: 97%;
+    background-color: #00b39b;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Section6 */
 .section6 .country{
     display: flex;
